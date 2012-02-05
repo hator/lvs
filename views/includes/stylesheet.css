@@ -1,0 +1,100 @@
+* { margin: 0; padding: 0; border: 0; font-family: "Tahoma", "Arial"; font-size: 14px; }
+body { background: url(images/bodybg.png); }
+pre { display: block; margin-bottom: 20px; padding: 20px; color: #55E439; background: #2A211C; border: 1px solid #412D28; }
+
+#wrapper { width: 960px; margin: 0 auto; }
+
+#mheader { width: 960px; height: 40px; float: left; margin: 20px 0; padding: 10px 0; }
+#mheader h1 a { display: block; float: left; font-size: 30px; line-height: 40px; color: #FFFFFF; text-decoration: none; }
+#mheader p { display: block; float: right; line-height: 40px; color: #CCC; }
+
+#mnav { clear: both; text-align: center; }
+#mnav li { display: inline-block; width: 160px; font-size: 18px; font-weight: bold; line-height: 50px; color: #B46C00; text-decoration: none; }
+#mnav li a { width: 160px; display: block; font-size: 18px; font-weight: bold; line-height: 50px; color: #B46C00; text-decoration: none; }
+#mnav li a:hover { color: #FF9900; }
+#mnav li a#atrans { width: 180px; font-size: 22px; color: #FF9900; }
+#mnav li a#atrans:hover { color: #FF1F00; }
+
+#content { width: 918px; float: left; margin: 20px 0 15px 0; padding: 20px; background: #090909; border: 1px solid #1F1F1F; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; }
+
+#content h2 { font-family: "Arial"; font-size: 20px; color: #CCC; }
+#content p { margin-top: 10px; line-height: 130%; color: #AAAAAA; }
+#content a { color: #4F6EFF; text-decoration: none; }
+#content a:hover { color: #5648E8; }
+
+#content ol, #content ul { margin: 10px 0 0 20px; }
+#content ol li, #content ul li { margin-top: 4px; color: #FFFFFF; }
+
+#jscounter { float: left; width: 260px; height: 320px; padding-right: 20px; text-align: center; }
+#jscounter h3 { margin-top: 15px; }
+#jscounter p { font-family: Arial; font-size: 32px; font-weight: bold; color: #FF9900; }
+#jscounter p span { margin: 0 3px; font-size: 28px; position: relative; top: -2px; }
+#jscounter a { line-height: 60px; font-family: Arial; font-size: 32px; font-weight: bold; color: #FF9900; }
+#maincontent { float: left; width: 620px; padding-left: 17px; border-left: 1px dotted #333; }
+
+.dialog { float: left; width: 842px; margin-top: 20px !important; padding: 10px 10px 10px 35px; border: 1px solid #1F1F1F; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; }
+.d_long { width: 870px; }
+.d_error { color: #FF0000 !important; background: #111 url(images/d_error.png) 10px 11px no-repeat; }
+.d_info { color: #6040FF !important; background: #111 url(images/d_info.png) 10px 11px no-repeat; }
+.d_success { color: #AADB4B !important; background: #111 url(images/d_success.png) 10px 11px no-repeat; }
+
+#main .dialog { margin-top: 10px !important; margin-bottom: 10px; }
+#loginform .dialog { margin-top : 0px !important; }
+#registerform .dialog { margin-top : 5px !important; margin-bottom: 5px !important; }
+.contestform .dialog { margin-top : 5px !important; margin-bottom: 5px !important; }
+
+#statusform { width: 800px; }
+#statusform h4 { width: 115px; float: left; color: #FFFFFF; }
+#statusform input { float: left; margin: 2px 8px 8px 0 !important; }
+#statusform p { margin-top: 0; margin-bottom: 6px; }
+#statusform .form_submit { margin-top: 10px !important; }
+#admin_changestatus .dialog { margin-top: 15px !important; }
+#admin_listofcontests .dialog { margin-top: 15px !important; margin-bottom: 15px !important; }
+
+#content form { float: left; overflow: hidden; padding: 15px; }
+
+#content form label { display: block; float: left; clear: left; width: 150px; height: 30px; margin-top: 10px; margin-bottom: 10px; line-height: 30px; color: #FFFFFF;  }
+#content .contestform label { width: 180px; text-align: right; padding-right: 20px; }
+#content form input { margin-top: 10px; margin-bottom: 10px; }
+.form_lshort { width: 80px !important; }
+.form_fleft, .form_fleft_short, .form_submit { border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; }
+.form_fleft, .form_fleft_short { display: block; float: left; width: 580px; height: 30px; padding: 0 10px; line-height: 30px; }
+.form_fleft_short { width: 280px; }
+.form_cdate { width: 18px; }
+.form_submit { float: left; clear: left; width: 200px; height: 32px; margin-top: 10px; line-height: 30px; color: #999999; background: #090909; border: 1px solid #1F1F1F; }
+.form_submit:hover { cursor: pointer; color: #FFFFFF; border: 1px solid #6F6F6F; }
+
+.form_cseparation { float: left; margin: 10px 5px; color: #FFFFFF; line-height: 30px; }
+
+table { width: 700px; margin: 20px auto; padding: 0; text-align: center; vertical-align: middle; font-size: 14px; border-spacing: 0px 0px; border: 1px solid #1F1F1F; border-width: 1px 0px 0px 1px; }
+table td { min-width: 20px; color: #999; border: 1px solid #1F1F1F; padding: 5px 0; border-width: 0px 1px 1px 0px; }
+.td_tleft { padding-left: 10px; text-align: left; }
+
+#video_closed { width: 640px; height: 480px; margin: 20px auto; background: #CCC; }
+
+#chat { width: 640px; margin: 0 auto; }
+
+#window { float: left; width: 606px; height: 200px; padding: 8px 16px; text-align: left; line-height: 22px; background: #FFFFFF; border: 1px solid #CCCCCC; overflow: hidden; overflow-y: scroll; }
+#window p, #window p span, #window p strong { font-family: Arial; font-size: 12px; color: #000000; }
+.info { font-style: italic; }
+.date { color: #333333; margin-right: 5px; }
+
+form#send { float: left; width: 640px; height: 60px; margin: 0; padding: 0; }
+#msg { float: left; width: 542px; height: 15px; line-height: 15px; padding: 8px 7px; font-size: 12px; }
+#send_msg { float: left; width: 74px; height: 31px; margin-left: 10px; padding: 0; cursor: pointer; line-height: 31px; border: 0; background: #FF9900; }
+
+h2#http_error { float: left; margin: 0 25px 0 30px; font-size: 70px; color: #FF9900; }
+p#http_error_msg { margin-top: 18px; }
+
+#admin_header { width: 100%; height: 30px; float: left; margin-bottom: 15px; border-bottom: 1px dotted #333; }
+#admin_header h2 { float: left; }
+#admin_header #admin_menu { margin: 0 !important; }
+#admin_header #admin_menu li { display: block; float: left; margin: 0; }
+#admin_header a { display: block; margin: 0 0 0 10px; font-size: 12px; line-height: 23px; }
+
+h3 { font-family: Arial; font-weight: bold; color: #FFF; }
+
+footer { clear: both; background: #090909; border: 1px solid #1F1F1F; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; }
+footer p { display: block; padding: 10px 14px; text-align: right; font-size: 12px; color: #666; }
+footer a { font-size: 12px; color: #B46C00; text-decoration: none; }
+footer a:hover { color: #FF9900; }
